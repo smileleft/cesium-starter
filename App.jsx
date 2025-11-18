@@ -14,7 +14,8 @@ function App() {
       timeline: false,
       baseLayerPicker: true,
       geocoder: false,
-      terrainProvider: Cesium.createWorldTerrain(),
+      //terrainProvider: Cesium.createWorldTerrain(),
+      terrain: Cesium.Terrain.fromWorldTerrain(),
       shadows: true,
       shouldAnimate: true,
     });
