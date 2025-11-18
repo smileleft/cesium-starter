@@ -1,2 +1,2 @@
 # cesium-starter
-repository for cesium start project
+https://cesium.com/
