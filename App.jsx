@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     // Ion Token (Cesium Ion 가입 후 토큰 입력)
-    Cesium.Ion.defaultAccessToken = "YOUR_CESIUM_ION_TOKEN";
+    Cesium.Ion.defaultAccessToken = import.meta.env.VITE_CESIUM_ION_ACCESS_TOKEN;
 
     // Viewer 생성
     const viewer = new Cesium.Viewer(viewerRef.current, {
